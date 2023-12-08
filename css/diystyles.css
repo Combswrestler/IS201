@@ -1,0 +1,32 @@
+/* 4 style definitions
+specify font color 
+specify font family
+3 divs positions and styles using these styles */
+/* custom background color or image */
+body{
+    background-image: url('../assets/img/light-blue-background.jpg');
+}
+.links{
+    font-family: Arial, Helvetica, sans-serif;
+    color:rgb(93, 70, 139);
+    text-decoration: none;
+}
+.title{
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+}
+.list{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:black;
+    font-weight:normal;
+}
+.countries{
+    font-weight:bold;
+    color:rgb(135, 9, 129);
+}
+a:hover{
+    text-decoration: underline;
+}
+a:visited{
+    color:brown
+}
